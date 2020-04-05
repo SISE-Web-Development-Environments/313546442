@@ -1,21 +1,103 @@
 
 <!DOCTYPE html>
-<html lang ="en">
+<html dir="rtl" lang ="en">
 
 
 
 <head>
-       
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <meta charset='utf-8'>
 
-       <style>
-                   
+<style>
+       
+
+   .serif {
+      font-family: "ariel", Times, serif;
+   }
+
+   .sansserif {
+      font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .monospace {
+      font-family: "Lucida Console", Courier, monospace;
+   }
+  
    ul {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: navy;
+   }
+
+   li {
+      float: left;
+   }
+
+   li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 50px 50px;
+      text-decoration: none;
+      font-size: 29px;
+      
+   }
+
+   li a:hover:not(.active) {
+      background-color: #111;
+   }
+
+   .active {
+      background-color: #4CAF50;
+   }
+
+   body { 
+      color: black;
+      font-family: times, Times New Roman, times-roman, georgia, serif;
+      text-align: initial;
+
+      font-size: 30px;
+      line-height: 70px;
+      font-weight: bold;  
+      background-image: url('pictures/temp2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      
+   }
+
+
+
+   .myHeadline {   
+      font-family: times, Times New Roman, times-roman, georgia, serif;
+      color:darkblue;
+      margin: 0;
+      padding: 0px 0px 6px 0px;
+      font-size: 55px;
+      line-height: 44px;
+      font-weight: bold; 
+      text-shadow: black; 
+   } 
+
+   .countries {   
+      font-family: times, Times New Roman, times-roman, georgia, serif;
+      color:yellow ;
+      margin: 20;
+      padding: 0px 0px 6px 0px;
+      font-size: 50px;
+      line-height: 20px;
+   } 
+
+   .web {   
+      font-family: times, Times New Roman, times-roman, georgia, serif;
+      color:dodgerblue ;
+      margin: 0;
+      padding: 0px 0px 6px 0px;
+      font-size: 20px;
+      line-height: 20px;
+   } 
+
+ 
 
 table, th, td {
   border: 0.4px solid black;
@@ -25,28 +107,37 @@ th, td {
   padding: 2px;
 }
 th {
-  text-align: center;
+  text-align: initial;
 }
 td{
-   text-align: center;
-       </style>
+   text-align: initial;
+}
 
+      
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+
+</style>
 </head>
 
 
 
-<body> 
+<body dir="rtl"> 
 
    <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
 
    <center>
 
+      
 
       <ul>
        <li style="float:center">
-      <img src="pictures/Apolo1.jpeg"
-      width="150" height="140/">
    </li> 
        <nav>
          <div id="menu">
@@ -61,88 +152,92 @@ td{
    </nav>
 </ul>
 
-       
+   </center>
 
+
+         
 
     <section id="aboutMe" class="section">
       <br>
-      <br>
-      <br>
       <br>        
-       <h2 class="myHeadline">About Me</h2>
-      <p>
-            
-            Hello, my name is Shira &#128579. I am 25 years old.
+       <h2 class="myHeadline">אודותי</h2>
+      <p >
+       
+            שלום לכולם, שמי עמרם סורסקי, אני בן 82. נולדתי במרחביה בעמק יזעראל. 
             <br>
-            I grew up and live in Hod Hasharon. I am a grduate of "Hadarim" High School.
+            כילד חוויתי את מלחמת העולם השנייה, הקמת המדינה ומלחמת השחרור.
             <br>
-            Since I was a little child, I liked technology and computer science.
+            אחד מהזכרונות הראשונים שלי הוא הפחד שראיתי אצל הורי כשהבינו שהנאצים כובשים מלוב ומכוונים לארץ ישראל.
             <br>
-            For this reason, I am a student in the department of system information in Ben Gurion University.
+            גדלתי בקריות, שם אני גר עד היום.
             <br>
-            In my opinon, to have the knowlegment to build websites is neccesarry and very usefull.
+            אני נשוי לדליה כבר 60 שנה. יש לנו שלושה ילדים ושש נכדות.
             <br>
-            An example for the usage of SEO and Website building is my mother Wix website <a href="https://www.psysite.co.il"> Psysite - Yeela Wertheim</a>.
+            למדתי הנדסת מזון בטכניון, בכל השנים עבדתי בתחום הייקבים כיינן, ולמעשה אני עובדת בכך חלקית עד עצם היום הזה.
             <br>
-            My mothers Wix proffesional website is a good example for the knowledge I would like to learn and know. 
+            למזלי תחום העניין המרכזי שלי הוא גם תחום עבודתי. אני אוהב את תחום היין, למדתי בעולם בייקבים שונים.
             <br>
-            I am glad I have the opertunity to study this in a high level.
+            ואני גאה ליישם זאת לאורך השנים גם בארץ. תחום עניין נוסף שהוא גם תחביב, הוא תחום ההיסטוריה.
+            <br>
+            בפרט קריאה על מלחמת העולם השנייה, שבה אני בקיא ומנהיגיה הם גם הדמויות שאני מעריך, למשל צ׳רצ׳יל.
+            <br>
+            תחום שלישי של עניין הוא גידול צמחים. בשנים האחרונות אני משקיע זמן בלגדל עציצים שיוצרים גינה במרפסת שלי.
+            <br>
+            לאורך השנים אספתי אביזרי יין ופסלוני קופים שמקשטים את ביתי, 
+            <br>
+             ואנשים יודעים תמיד להביא לי אותם ובכך אני שמח.
+            <br>
+
       </p>
       <br>
       <br>
     </section>
 
+
+
     <br>
-    <br>
-    <br>
+    
+
+    <center>
 
     <section id="myPhotos" class="section">
       <br>
       <br>
       <br>
       <br>  
-           <h2 class="myHeadline">Some photos</h2>
+           <h2 class="myHeadline">מספר תמונות</h2>
       <p>
              
-         One of my hobbies is to travel. &#127758
-         <br>
-         I hope when the covid-19 will be behaind us, I will have the opperunity to do that again.
-         <br>
-         Here are some of my photos from trips around the world:
+         
          <br>
          <br>
          <br>
         
 
-         <h2 class="countries"> El Chalten, Argentina</h2>
-         <img src="pictures/elChalten.jpeg"  width="600" height="400">
+         <h2 class="countries"> בטיול בטבע</h2>
+         <img src="pictures/pic1.jpeg"  width="900" height="675">
 
       <br>
-      <br>
-
-      <h2 class="countries"> San Pedro de Atacama, Chille</h2>
-      <img src="pictures/San Pedro de Atacama..jpg"  width="600" height="375">
-
-  <br>
-  <br>
-      
-     
+      <br>  
          
-         <h2 class="countries"> Yosemitie, California</h2>
-         <img src="pictures/Yosemitie.jpeg"  width="600" height="375">
+         <h2 class="countries"> בחדר העבודה שלי</h2>
+         <img src="pictures/pic3.jpg"  width="900" height="563">
          <br>
          <br>
          <br>
-         <br>  
-             <h2 class="countries"> Nice, France</h2>
-             <img src="pictures/nice.jpeg"  width="600" height="375">
-     
-         <br>
-         <br>
-         <h2 class="countries">Berlin, Germany</h2>
-         <img src="pictures/berlin.jpeg"  width="600" height="375">
+             <h2 class="countries"> מדליה שקיבלתי על יין מצטיין בתחרות בינלאומית</h2>
+             <img src="pictures/pic4.jpg"  width="900" height="563">      
+             
+             
+             <br>
+             <br>
+            
     
-           
+             <h2 class="countries"> טיול בשוויץ</h2>
+             <img src="pictures/pic5.jpeg"  width="675" height="900">
+    
+          <br>
+          <br>  
 
 
          
@@ -158,10 +253,9 @@ td{
      <br>
      <br>
      <br>  
-      <h2 class="myHeadline">Let's play some music &#127926</h2>
+      <h2 class="myHeadline">שירים ומוסיקה שאני אוהב</h2>
  <p>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJ9-tGsa8tG4jPQClIIcR8gBXla48hlv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- </p>
+   <iframe width="840" height="473" src="https://www.youtube.com/embed/videoseries?list=PLJ9-tGsa8tG4Zv8Se5JUQytqWhy-kApNa" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </p>
    </section>
 
 
@@ -177,7 +271,7 @@ td{
      <br>
      <br>
      <br>  
-      <h2 class="myHeadline">Put like to the system information department facebook page &#128077</h2>
+      <h2 class="myHeadline">מתן לייק לאתר</h2>
  <p>
    <div class="fb-like" data-href="https://www.facebook.com/sise.bgu/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
  </p>
@@ -193,9 +287,11 @@ td{
       <br>
       <br>
       <br> 
-           <h2 class="myHeadline">scan the barcode to enter my website</h2>
+           <h2 class="myHeadline">ברקוד לסריקת האתר</h2>
+           <p>
+            <img src="pictures/QR code.png" width="300" height="250">
+         </p>
       <p>
-         <img src="pictures/QR code.png" alt="Girl in a jacket" width="300" height="250">
       </p>
       <br>
       <br>
@@ -212,7 +308,7 @@ td{
       <br> 
       <br>
       <br>  
-      <h2 class="myHeadline">questions and answers &#10067</h2>
+      <h2 class="myHeadline">שאלות ותשובות </h2>
       <p>
          <h2 class="web">Question number 1:</h2>
 
@@ -293,7 +389,7 @@ td{
       <br>
       <br>
       <br>  
-      <h2 class="myHeadline">for more information, please send an E-mail &#128187</h2>
+      <h2 class="myHeadline">יצירת קשר</h2>
       <p>
          <form action="mailto:shira.wert@gmail.com" method="post" enctype="text/plain">
             Name:<br>
@@ -306,10 +402,8 @@ td{
             <input type="reset" value="Reset">       
          </form>
          &#128579
-         &#128536
          &#128578
          &#128522
-         &#128041 
 
       </p>
       <br>
